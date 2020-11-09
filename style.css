@@ -1,0 +1,94 @@
+input[type="checkbox"]:checked + span.forTrash {
+  text-decoration: line-through;
+}
+div {
+  margin: auto;
+  width: 80%;
+  height: 80vh;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.409);
+}
+
+h2 {
+  font-family: Monospace, Verdana, Sans-serif;
+  font-size: 30px;
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+p {
+  margin: auto;
+  margin-top: 60px;
+  text-align: left;
+  overflow: hidden;
+}
+
+button {
+  border-radius: 10px;
+  border-color: red;
+  font-family: Monospace, Verdana, Sans-serif;
+  font-size: smaller;
+  text-align: center;
+  margin: auto;
+  width: 10vw;
+}
+
+input {
+  border-color: rgb(31, 131, 202);
+  border-style: solid;
+  color: rgb(31, 161, 216);
+  font-family: Monospace, Verdana, Sans-serif;
+  font-size: small;
+  margin-left: 15vw;
+  min-width: 20%;
+  
+}
+
+span {
+  font-family: Monospace, Verdana, Sans-serif;
+  font-size: 15px;
+  margin: 2px;
+  text-align: left;
+  border-color: antiquewhite;
+}
+
+ul {
+  font-family: Monospace, Verdana, Sans-serif;
+  font-size: 18px;
+  margin-top: 18px;
+  margin-left: 95px;
+  text-align: left;
+  list-style: none;
+  bottom: 10vh;
+  min-height: 40vh;
+  min-width: 40%;
+  max-width: 80%;
+  background-color: rgba(128, 128, 128, 0.218);
+  overflow: hidden;
+}
+li {
+  color: rgb(22, 26, 29);
+  background-color: rgba(128, 128, 128, 0.144);
+  padding: 5px;
+  border-radius: 5%;
+  text-align: left;
+  border-color: rgb(22, 18, 18);
+  margin: 5px;
+  justify-content: left;
+  overflow: hidden;
+  font-size: smaller;
+}
+ul li input{
+    width: 5vw;
+    margin: 0%;
+    padding: 0%;
+}
+p #button2 {
+  width: 11vw;
+  margin-left: 190px;
+  font-size: smaller;
+  
+}
